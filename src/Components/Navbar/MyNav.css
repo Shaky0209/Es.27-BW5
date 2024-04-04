@@ -1,0 +1,27 @@
+.nav-link > p{
+    margin: 0;
+}
+
+.nav-link{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 8pt;
+    padding: 10px 0 0;
+}
+
+.nav-link.right{
+    width: 90px;
+
+}
+
+.nav-icon{
+    font-size: 14pt;
+}
+
+.link-container{
+    display: flex;
+    justify-content: end;
+}
