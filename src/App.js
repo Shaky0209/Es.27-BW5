@@ -1,9 +1,8 @@
-import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Home from './Pages/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -12,5 +11,3 @@ function App() {
     </BrowserRouter>
   );
 }
-
-export default App;

@@ -1,0 +1,27 @@
+.profile-card{
+    position: relative;
+}
+
+.close-card-btn{
+    position: absolute;
+    width: 30px;
+    padding: 0;
+    top: 5px;
+    right: 5px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.close-card-btn:hover{
+    background-color: black;
+}
+
+.connect-btn{
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.connect-btn:hover{
+    background-color: rgb(158, 155, 238);
+    color: blue;
+}

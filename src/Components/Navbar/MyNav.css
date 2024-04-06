@@ -21,7 +21,27 @@
     font-size: 14pt;
 }
 
-.link-container{
-    display: flex;
-    justify-content: end;
+.resp-border{
+    width: 100%;
+    border-left: 1px solid rgb(207, 207, 207);
+}
+.bg-body-tertiary{
+    height: 13vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.collapse-nav{
+    background-color: white;
+}
+.collapse-menu{
+    width: 100vw;
+}
+
+@media screen and (max-width: 991px) {
+
+    .resp-border{
+        border-left: none;
+    }
 }

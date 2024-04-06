@@ -1,0 +1,40 @@
+.nav-exp{
+    position: fixed;
+    height: 13vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.link-nav{
+    padding: 5px 5px 0 5px;
+}
+
+.icon{
+    font-size: 20px;
+    padding: 9px
+}
+
+.link-lab, .router-link{
+    font-size: 9pt;
+    margin-bottom: 0;
+}
+
+.cont-router-link{
+    max-width: 80px;
+}
+
+.router-link{
+    text-align: center;
+}
+
+.nav-drop-cont{
+    font-size: 9pt;
+}
+
+.opening{
+    background-color: white;
+}
+
+.navbar-toggler{
+    margin-right: 10px;
+}
