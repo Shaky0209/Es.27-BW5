@@ -1,0 +1,66 @@
+.profile-body{
+    padding-top: 13vh;
+}
+
+.top-bg{
+    position: relative;
+    height: 200px;
+    background-image: url('https://sfondo.info/i/original/f/6/2/7225.jpg');
+    background-size: cover;
+    background-position: top;
+    border-radius: 5px 5px 0 0;
+}
+
+.profile-img{
+    position: absolute;
+    top: 100px;
+    border: 1px solid lightslategray;
+}
+
+.pencil-btn{
+    border: none;
+}
+
+.pencil-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.pencil-btn:active{
+    background-color: white !important;
+    color: black !important;
+}
+
+.verify-btn{
+    font-size: 11pt !important;
+    border-radius: 20px !important;
+    border: 1px dashed !important;
+}
+
+.link-icon{
+    font-size: 3pt;
+    margin: 2px;
+}
+
+.style-fs{
+    font-size: 10pt;
+}
+
+.btn-style{
+    border-radius: 20px;
+    font-size: 10pt !important;
+}
+
+.body-style{
+    font-size: 10pt;
+}
+
+.bg-color{
+    background-color: rgb(224, 238, 255);
+}
+
+.bg-white{
+    padding-top: 0;
+    background-color: white;
+    border-radius: 5px;
+}

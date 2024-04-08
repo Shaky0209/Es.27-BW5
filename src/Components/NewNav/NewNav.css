@@ -38,3 +38,36 @@
 .navbar-toggler{
     margin-right: 10px;
 }
+
+.link-tu{
+    position: relative;
+}
+
+.card-tu{
+    position: absolute;
+    top: 12vh;
+    right: 0;
+    white-space: nowrap;
+    font-size: 9pt;
+}
+
+.card-tu-title{
+    font-size: 11pt;
+}
+
+.card-tu-btn{
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 991px) {
+
+    .card-tu{
+        position: absolute;
+        top: -230px;
+        left: 80px;
+        max-width: 250px;
+        white-space: nowrap;
+        font-size: 9pt;
+    }
+
+}

@@ -37,18 +37,17 @@ export default function BodyHome() {
             <Row className='py-5'>
                 {data.map(({area, bio, email, image, name, surname, title, username, _id})=>{
                     return(
-                        <Col sm={4} md={3} className='my-1 px-1' key={_id}>
-                            <SingleProfile
-                                area={area}
-                                bio={bio}
-                                email={email}
-                                image={image}
-                                name={name}
-                                surname={surname}
-                                title={title}
-                                username={username}
-                            />
-                        </Col>
+                        <SingleProfile
+                            key={_id}
+                            area={area}
+                            bio={bio}
+                            email={email}
+                            image={image}
+                            name={name}
+                            surname={surname}
+                            title={title}
+                            username={username}
+                        />
                     )
                 })}
             </Row>
